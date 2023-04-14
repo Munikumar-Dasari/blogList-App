@@ -1,0 +1,43 @@
+/* Write your CSS code here */
+
+.user-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile {
+  height: 140px;
+  width: 70%;
+  margin-bottom: 20px;
+}
+
+.name {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+  color: #12022f;
+}
+
+.role {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+  color: #616e7c;
+}
+
+@media screen and (min-width: 768px) {
+  .profile {
+    height: 200px;
+    width: 75%;
+  }
+
+  .name {
+    font-size: 26px;
+  }
+
+  .role {
+    font-size: 22px;
+  }
+}
